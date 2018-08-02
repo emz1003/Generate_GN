@@ -1,0 +1,8 @@
+rsid,String,rsid,
+ref,String,ref,
+alt,String,alt,
+uniprotId,String,uniprot_id,
+mutpredScore,Double,mutpred_score,
+cosmicId,String,cosmic_id,
+chrom,String,chrom,
+hg19,Hg19,hg19,

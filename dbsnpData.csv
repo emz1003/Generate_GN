@@ -1,0 +1,15 @@
+"_license",String,_license,
+"alleleOrigin",String,allele_origin,
+"alleles",Alleles,alleles,y
+"alt",String,alt,
+"chrom",String,chrom,
+"_class",String,class,
+"dbsnpBuild",Integer,dbsnp_build,
+"flags",Flags,flags,y
+"gene",Gene,gene,
+"hg19",Hg19,hg19,
+"ref",String,ref,
+"rsid",String,rsid,
+"validated", Boolean,validated,
+"varSubtype",String,var_subtype
+"vartype",String, vartype,
