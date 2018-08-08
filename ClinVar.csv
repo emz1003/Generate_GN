@@ -1,0 +1,9 @@
+"_license",String,_license,n
+"alleleId",Integer,allele_id,n
+"alt",String,alt,n
+"chrom",String,chrom,n
+"cytogenic",String,cytogenic,n
+"gene",Gene,gene,n
+"hg19",Hg19,hg19,n
+"hg38",Hg38,hg38,n
+"hgvs",Hgvs,hgvs,n

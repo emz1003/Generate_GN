@@ -1,0 +1,8 @@
+"hgvs",String,hgvs,n
+"version",Integer,version,n
+"snpeff",Snpeff,snpeff,n
+"vcf",Vcf,vcf,n
+"dbsnp",Dbsnp,dbsnp,n
+"cosmic",Cosmic,cosmic,n
+"clinVar",ClinVar,clin_var,n
+"mutdb",Mutdb,mutdb,n

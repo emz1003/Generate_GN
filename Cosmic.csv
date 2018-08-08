@@ -1,0 +1,9 @@
+"_license",String,_license,n
+"alt",String,alt,n
+"chrom",String,chrom,n
+"cosmicId",String,cosmic_id,n
+"hg19",Hg19,hg19,n
+"mutFreq",Double,mut_freq,n
+"mutNt",String,mut_nt,n
+"ref",String,ref,n
+"tumorSite",String,tumor_site,n

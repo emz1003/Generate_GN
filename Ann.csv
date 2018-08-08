@@ -1,0 +1,9 @@
+"distanceToFeature",String,distance_to_feature,n
+"effect",String,effect,n
+"featureId",String,feature_id,n
+"featureType",String,feature_type,n
+"geneId",String,gene_id,n
+"geneName",String,gene_name,n
+"hgvsCoding",String,hgvs_coding,n
+"putativeImpact",String,putative_impact,n
+"transcriptBiotype",String,transcript_biotype,n
