@@ -6,7 +6,7 @@ def generate_csv(f, csv_name):
     csvIn = open(csv_name, 'w')
     fRead = map(str.strip, fIn.readlines())
     for line in fRead:
-        if "private" in line:
+        if "public" in line and ';' in line:
             w = line.split()
             typ = w[1]
             name = '"'+ w[2].strip(';') +'"'
@@ -26,7 +26,7 @@ def change_name(name):
             ans += i
     return ans
 
-generate_csv('/Users/emilyzhang/genome-nexus/model/src/main/java/org/cbioportal/genome_nexus/model/my_variant_info_model/Ann.java', 'Ann.csv')
+#generate_csv('/Users/emilyzhang/genome-nexus/model/src/main/java/org/cbioportal/genome_nexus/model/my_variant_info_model/Ann.java', 'Ann.csv')
 
 
 
