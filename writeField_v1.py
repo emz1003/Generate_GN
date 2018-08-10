@@ -1,3 +1,4 @@
+# reformat version of writeField
 firstUp = lambda x: x[0].upper()+x[1:]
 def method(data):
     f_in = open(data, "r")

@@ -1,4 +1,6 @@
+# for converting camelCase to PascalCase
 firstUp = lambda x: x[0].upper()+x[1:]
+# writes the setter/getters
 def method(data):
     f_in = open(data, "r")
     f = map(lambda x: x.split(','), f_in.readlines())
@@ -20,6 +22,7 @@ def method(data):
         finalAns += [ans]
     return "\n".join(finalAns)
 
+# initializes variables
 def initial(data):
     '''initializes objects contained in csv'''
     f_in = open(data, "r")

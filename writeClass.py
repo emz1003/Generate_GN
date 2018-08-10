@@ -2,6 +2,7 @@ import writeField_v1
 import writeCsv
 from os import listdir
 from os.path import isfile, join
+
 mypath = '/Users/emilyzhang/genome-nexus/model/src/main/java/org/cbioportal/genome_nexus/model/my_variant_info_model'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 # print onlyfiles

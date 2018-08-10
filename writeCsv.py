@@ -1,5 +1,4 @@
-import writeField
-## if the file is already written this creates the csv to reformat it
+## if the file is already written this reads the file f for the fields and creates the csv to reformat it
 def generate_csv(f, csv_name):
     ans = ''
     fIn = open(f,'r')
@@ -16,7 +15,7 @@ def generate_csv(f, csv_name):
     csvIn.write(ans)
     csvIn.close()
     fIn.close()
-
+ # converts camelCase to snake_case
 def change_name(name):
     ans = ''
     for i in name:
